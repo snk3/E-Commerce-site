@@ -8,7 +8,7 @@
 
 .loginsignup-container{
     width: 400px;
-    height: 400px;
+    height: 430px;
     background: white;
     margin: auto;
     padding: 30px 50px;
@@ -42,17 +42,27 @@
     height: 50px;
     color: white;
     background: #EB423F;
-    margin-top: 25px;
+    margin-top: 18px;
     border: none;
     cursor: pointer;
     font-size: 20px;
     font-weight: 500;
-
+    border-radius: 3px;
 }
+
+.loginsignup-login{
+    margin: 18px 0px;
+}
+
+.loginsignup-login span{
+    color: #EB423F;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 .loginsignup-agree{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding: 0px;
-    margin: none;
+    justify-content: center;
+    gap: 10px;  
 }

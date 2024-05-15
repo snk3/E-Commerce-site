@@ -34,7 +34,12 @@
     align-items: center;
     justify-content: center;
     gap: 3px;
+    color: #171717;
     cursor: pointer;
+}
+
+.nav-menu li a{
+    color:#171717;
 }
 
 .nav-menu hr{
@@ -65,7 +70,7 @@
 }
 
 .nav-login-cart button:active{
-    background: #f3f3f3;
+    background: #ff4d00;
 }
 
 .nav-cart-count{
