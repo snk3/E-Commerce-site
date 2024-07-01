@@ -65,12 +65,12 @@
     color: white;
     font-size: 18px;
     font-weight: 500;
-    background: #FF7235;
+    background: #ff4d00;
     cursor: pointer;
 }
 
 .nav-login-cart button:active{
-    background: #ff4d00;
+    background: #ff1e00;
 }
 
 .nav-cart-count{

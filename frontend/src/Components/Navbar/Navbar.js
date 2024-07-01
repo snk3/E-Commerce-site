@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
 
-  const [menu,setMenu] = useState("Shop")
+  const [menu,setMenu] = useState("Shop");
+  
   return (
     <div className='navbar'>
         <div className='nav-logo'>
