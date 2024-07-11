@@ -1,0 +1,100 @@
+    .cartitems{
+        margin: 30px 60px;
+    }
+
+    .cartitems hr{
+        height:2px;
+        border:0;
+        background: #e2e2e2;
+    }
+
+    .cartitems-format-main{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap:30px;
+        padding: 15px 0px;
+        color:#454545;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .cartitems-format{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .cartitems-product-icon{
+        height: 60px;
+    }
+
+    .cartitems-remove-icon{
+        width: 15px;
+        margin: 0px 40px;
+        cursor: pointer;
+    }
+
+    .cartitems-quantity{
+        width: 64px;
+        height: 50px;
+        border: 1px solid #ebebeb;
+        background: #fff;
+    }
+
+    .cartitems-down{
+        display: flex;
+        justify-content: space-around;
+        margin:50px 0px;
+    }
+
+    .cartitems-total{
+        flex:1;
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .cartitems-total-item{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+
+    .cartitems-total button{
+        width: 262px;
+        height: 58px;
+        outline: none;
+        border: none;
+        background: #ff5a5a;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .cartitems-promo-code{
+        flex:1;
+        display:flex;
+        flex-direction: column;
+        margin-left: 200px;
+        gap: 10px;
+        padding: 20px;
+        /* margin: 100px 0px; */
+    }
+
+    .cartitems-promo-code-box input{
+        width: 330px;
+        height: 40px;
+        border: 1px solid #e2e2e2;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .cartitems-promo-code-box button{
+        width: 80px;
+        height: 43px;
+        background: rgb(28, 28, 28);
+        color: white;
+        border: 0px;
+    }
